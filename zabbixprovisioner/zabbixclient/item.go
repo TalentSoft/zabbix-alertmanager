@@ -58,10 +58,10 @@ type Item struct {
 	Name         string    `json:"name"`
 	Type         ItemType  `json:"type"`
 	ValueType    ValueType `json:"value_type"`
-	DataType     DataType  `json:"data_type"`
-	Delta        DeltaType `json:"delta"`
+	//DataType     DataType  `json:"data_type"`
+	//Delta        DeltaType `json:"delta"`
 	Description  string    `json:"description"`
-	Error        string    `json:"error"`
+	//Error        string    `json:"error"`
 	History      string    `json:"history,omitempty"`
 	Trends       string    `json:"trends,omitempty"`
 	TrapperHosts string    `json:"trapper_hosts,omitempty"`
